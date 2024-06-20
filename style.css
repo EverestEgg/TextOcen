@@ -1,0 +1,144 @@
+body{
+ background-color:#02000e;
+ margin: 0;
+}
+
+
+#Gradient{
+position: absolute;
+width: 100%;
+height: 453px;
+left: 0px;
+bottom: 0%;
+
+background: linear-gradient(4.79deg, #3f4380 -34.32%, rgba(5, 0, 51, 0) 54.38%);
+}
+
+#TypeBox{
+position: fixed;
+width: 50%;
+height: 40px;
+left: 25%;
+right: auto;
+bottom: 7%;
+
+background: rgba(3, 1, 27, 0.74);
+border: 4px solid #7fa6ee;
+
+font-family: "Pixelify Sans", monospace;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 34px;
+color: #abc8fd;
+
+border-style: solid;
+    border-width: 4px;
+    border-radius: 8px;
+}
+
+
+#Image{
+position: absolute;
+width: 50%;
+height: 45%;
+left: 30%;
+top: 5%;
+object-fit: cover;
+
+border: 7px solid #0c1142;
+}
+
+
+#Responce{
+position: absolute;
+width: 70%;
+height: 15%;
+left: 20%;
+top: 55%;
+
+font-family:  "Pixelify Sans", monospace;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.15em;
+color: #bad0fa;
+
+border: 4px solid #7fa6ee;
+padding: 5px;
+}
+
+
+#hint{
+position: fixed;
+width: 8px;
+height: 8px;
+left: 76%;
+bottom: 8%;
+padding: 10px;
+
+font-family:  "Pixelify Sans", monospace;
+font-style: normal;
+font-weight: 600;
+font-size: 23px; 
+color: #57ffdb;
+
+border-radius: 150px;
+border: 4px solid #54ebb1 ;
+background-color: #060c29;
+}
+
+#htext{
+    position: absolute;
+    left: 20.67%;
+    right: 20.61%;
+    top: 10.85%;
+    bottom: 5.65%;
+}
+
+#open{
+position: absolute;
+width: 100%;
+height: 100%;
+
+background-color: #050a35
+}
+
+#start{
+position: absolute;
+width: 15%;
+height: 5%;
+top: 50%;
+left: 40%;
+
+font-family:  "Pixelify Sans", monospace;
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+letter-spacing: 3px; 
+color: #57ffdb;
+
+background-color: #1f2781;
+
+border: inset 4px rgb(15, 79, 104);
+}
+
+#hintPop{
+position: absolute;
+width: 10%;
+height: 30%;
+top: 15%;
+left: 85%;
+
+border: solid #7fa6ee 5px;
+background-color: #3f43808c;
+
+font-family:  "Pixelify Sans", monospace;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+letter-spacing: 3px; 
+color: #57ffdb;
+}
+
