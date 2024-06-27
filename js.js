@@ -7,20 +7,19 @@ $(document).ready(function(){
   let location = 'land';
 
   //code vaibuls
-  function resetText() {$('input').val('>');} //add focase at the end once done
+  function resetText() {$('input').val('>').focus();} //add focase at the end once done
   function wrongInp() {
-    $('#wrong').show();
-    resetText();
-    $('#wrong').fadeOut(2000);} //show popup with wrong imput
+    $('#wrong').show().fadeOut(1500);
+    resetText();} //show popup with wrong imput
 
 
 
    $('#hintPop').hide()
    $('#wrong').hide()
     //remove when done
-    $("#open").hide();
-    $("#start").hide();
-    resetText();
+    //$("#open").hide();
+    //$("#start").hide();
+    //resetText();
 
    //Remove starting screen
   $("#start").click(function(){
