@@ -9,7 +9,7 @@ $(document).ready(function(){
   //code vaibuls
   function resetText() {$('input').val('>').focus();} //add focase at the end once done
   function wrongInp() {
-    $('#wrong').show().fadeOut(1500);
+    $('#wrong').show().fadeOut(2000);
     resetText();} //show popup with wrong imput
 
 
@@ -24,7 +24,7 @@ $(document).ready(function(){
    //Remove starting screen
   $("#start").click(function(){
     $("#open").fadeOut(3000);
-    $("#start").fadeOut(400);
+    $("#start").fadeOut(800);
     resetText();
   });
 
