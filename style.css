@@ -36,6 +36,14 @@ border-style: solid;
     border-width: 4px;
     border-radius: 8px;
 }
+#tBlock{
+position: fixed;
+width: 70%;
+height: 60px;
+left: 20%;
+right: auto;
+bottom: 7%;  
+}
 
 
 #Image{
@@ -158,9 +166,7 @@ line-height: 32px;
 letter-spacing: 0.20em;
 color: #bad0fa;
 text-align: center;
-
-background-color: #030822cc;
-
-    
+background-color: #030822cc; 
 }
+
 
